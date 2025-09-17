@@ -1,1 +1,39 @@
+Bank Loan Prediction
+Project Overview
+Bank Loan Prediction is a simple yet powerful web application designed to assist financial institutions in evaluating loan applications quickly and reliably. By entering just two key details—applicant income and the requested loan amount—the application predicts whether a loan is likely to be approved or rejected.
 
+Built with Flask on the backend and HTML/CSS on the frontend, this project leverages a pre-trained machine learning model to deliver accurate, real-time predictions in a clean and user-friendly interface.
+
+Key Features
+Machine Learning–Based Predictions – Uses a pre-trained model to assess loan approvals.
+
+Streamlined User Experience – Minimal input fields and an intuitive form layout.
+
+Flask-Powered Backend – Handles data input, prediction logic, and model integration.
+
+Instant Results – Provides immediate approval or rejection feedback to the user.
+
+Technology Stack
+Backend: Python (Flask framework)
+
+Frontend: HTML, CSS
+
+Model Handling: Joblib for model serialization and loading
+
+Deployment: Fully compatible with any Flask-supporting hosting environment
+
+How It Works
+The user inputs the applicant’s income and the requested loan amount.
+
+The backend processes the input and passes it to the trained machine learning model.
+
+The model evaluates the data and predicts whether the loan will be approved or rejected.
+
+The result is displayed instantly on the webpage.
+
+Project Files
+app.py – Main Flask application, backend logic, and prediction handling.
+
+index.html – Frontend page containing the input form and layout.
+
+model.pkl – Pre-trained machine learning model used for predictions.
